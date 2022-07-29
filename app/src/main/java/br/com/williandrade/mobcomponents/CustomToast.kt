@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 
 object CustomToast {
+    @Suppress("DEPRECATION")
     private fun showToast(
         activit : Activity,
         backgroundToast : Drawable?,
